@@ -254,7 +254,7 @@ button{ font:inherit; }
   display:inline-block; margin-top:28px; text-decoration:none; position:relative;
   font-family:var(--ff-heading); font-weight:800;
   font-size:clamp(1.25rem, 3.4vw, 2.1rem);
-  background:linear-gradient(100deg, var(--purple-1), var(--Red-1) 55%, var(--purple-2));
+  background:(--purple-2);
   background-size:220% auto;
   -webkit-background-clip:text; background-clip:text; color:transparent;
   animation:gradientShift 6s ease infinite;
