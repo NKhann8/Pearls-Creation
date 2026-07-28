@@ -44,7 +44,7 @@ button{ font:inherit; }
 /* ---------- Animated gradient background ---------- */
 .bg-blobs{
   position:fixed; inset:0; z-index:-2; overflow:hidden;
-  background:linear-gradient(160deg,#fffdf7 0%,#fff6df 22%,#ffffff 46%,#f4ebff 70%,#e7d6ff 100%);
+  background:linear-gradient(#000000 100%);
 }
 .blob{ position:absolute; border-radius:50%; filter:blur(75px); opacity:.5; }
 .blob-purple{
