@@ -226,7 +226,7 @@ button{ font:inherit; }
 .inspire-line1{
   font-family:var(--ff-heading); font-weight:700; text-transform:uppercase;
   letter-spacing:.06em; font-size:clamp(1.2rem, 3vw, 1.7rem);
-  color:var(--purple-2); margin-bottom:12px; min-height:1.4em;
+  color:var(--purple-1); margin-bottom:12px; min-height:1.4em;
 }
 .inspire-line2{
   font-family:var(--ff-heading); font-weight:900; line-height:1.15;
