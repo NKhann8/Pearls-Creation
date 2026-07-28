@@ -7,8 +7,8 @@
 :root{
   --white:#ffffff;
   --cream:#fffaf0;
-  --yellow-1:#ffd54d;
-  --yellow-2:#ffb100;
+  --purple-1:#ffd54d;
+  --purple-2:#ffb100;
   --purple-1:#8b5cf6;
   --purple-2:#6d28d9;
   --purple-deep:#3d1f75;
@@ -16,7 +16,7 @@
   --ink-soft:#5b4b7a;
 
   --shadow-purple: rgba(109,40,217,.28);
-  --shadow-yellow: rgba(255,177,0,.4);
+  --shadow-purple: rgba(255,177,0,.4);
 
   --radius-lg: 28px;
   --radius-md: 22px;
