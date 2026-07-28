@@ -263,11 +263,11 @@ button{ font:inherit; }
 .contact-email:hover{ filter:drop-shadow(0 6px 16px rgba(109,40,217,.35)); transform:translateY(-2px); }
 .contact-email::after{
   content:''; position:absolute; left:0; right:0; bottom:-6px; height:2px;
-  background:linear-gradient(90deg, var(--purple-2), var(--yellow-2));
+  background:linear-gradient(90deg, var(--Red-1), var(--purple-2));
   transform:scaleX(0); transform-origin:left; transition:transform .35s ease;
 }
 .contact-email:hover::after{ transform:scaleX(1); }
-.contact-note{ margin-top:18px; color:var(--ink-soft); font-weight:500; font-size:.95rem; }
+.contact-note{ margin-top:18px; color:var(--purple-2); font-weight:500; font-size:.95rem; }
 
 /* ---------- Footer ---------- */
 .site-footer{ padding:50px 24px 44px; text-align:center; border-top:1px solid rgba(109,40,217,.1); }
