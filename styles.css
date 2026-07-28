@@ -8,8 +8,8 @@
   --white:#ffffff;
   --cream:#000000;
   --purple-1:#8c52ff;
-  --purple-2:#ffb100;
-  --Red-1:#8b5cf6;
+  --purple-2:#ff5757;
+  --Red-1:#ff3131;
   --Red-2:#6d28d9;
   --purple-deep:#3d1f75;
   --ink:#2c1a4d;
@@ -231,7 +231,7 @@ button{ font:inherit; }
 .inspire-line2{
   font-family:var(--ff-heading); font-weight:900; line-height:1.15;
   font-size:clamp(2.1rem, 5.6vw, 4rem); min-height:1.3em;
-  background:linear-gradient(100deg, var(--purple-2), var(--yellow-2) 55%, var(--purple-1));
+  background:linear-gradient(100deg, var(--purple-2), var(--Red-1) 55%, var(--purple-1));
   background-size:220% auto;
   -webkit-background-clip:text; background-clip:text; color:#8c52ff;
   animation:gradientShift 6s ease infinite;
