@@ -257,14 +257,14 @@ button{ font:inherit; }
   background:(--purple-2);
   background-size:220% auto;
   -webkit-background-clip:text; background-clip:text; color:transparent;
-  animation:gradientShift 6s ease infinite;
-  transition:filter .3s ease, transform .3s ease;
+  animation:gradientShift 2s ease infinite;
+  transition:filter .2s ease, transform .2s ease;
 }
 .contact-email:hover{ filter:drop-shadow(0 6px 16px rgba(109,40,217,.35)); transform:translateY(-2px); }
 .contact-email::after{
   content:''; position:absolute; left:0; right:0; bottom:-6px; height:2px;
   background:linear-gradient(90deg, var(--Red-1), var(--purple-2));
-  transform:scaleX(0); transform-origin:left; transition:transform .35s ease;
+  transform:scaleX(0); transform-origin:left; transition:transform .2s ease;
 }
 .contact-email:hover::after{ transform:scaleX(1); }
 .contact-note{ margin-top:18px; color:var(--purple-2); font-weight:500; font-size:.95rem; }
