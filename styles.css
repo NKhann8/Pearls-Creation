@@ -7,7 +7,7 @@
 :root{
   --white:#ffffff;
   --cream:#000000;
-  --purple-1:#ffd54d;
+  --purple-1:#8c52ff;
   --purple-2:#ffb100;
   --Red-1:#8b5cf6;
   --Red-2:#6d28d9;
@@ -233,7 +233,7 @@ button{ font:inherit; }
   font-size:clamp(2.1rem, 5.6vw, 4rem); min-height:1.3em;
   background:linear-gradient(100deg, var(--purple-2), var(--yellow-2) 55%, var(--purple-1));
   background-size:220% auto;
-  -webkit-background-clip:text; background-clip:text; color:transparent;
+  -webkit-background-clip:text; background-clip:text; color:#8c52ff;
   animation:gradientShift 6s ease infinite;
 }
 @keyframes gradientShift{ 0%{ background-position:0% center; } 100%{ background-position:220% center; } }
