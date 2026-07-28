@@ -46,23 +46,6 @@ button{ font:inherit; }
   position:fixed; inset:0; z-index:-2; overflow:hidden;
   background:#000000;
 }
-.blob{ position:absolute; border-radius:50%; filter:blur(75px); opacity:.5; }
-.blob-purple{
-  width:520px; height:520px; top:-140px; left:-120px;
-  background:radial-gradient(circle, var(--purple-1), var(--purple-2));
-  animation:float1 22s ease-in-out infinite alternate;
-}
-.blob-purple{
-  width:600px; height:600px; bottom:-220px; right:-160px;
-  background:radial-gradient(circle, var(--purple-1), var(--purple-2));
-  animation:float2 26s ease-in-out infinite alternate;
-}
-.blob-soft{
-  width:420px; height:420px; top:42%; left:50%; opacity:.35;
-  transform:translate(-50%,-50%);
-  background:radial-gradient(circle, #ffffff, #ffe9a8);
-  animation:float3 30s ease-in-out infinite alternate;
-}
 @keyframes float1{ to{ transform:translate(90px,60px) scale(1.15); } }
 @keyframes float2{ to{ transform:translate(-80px,-50px) scale(1.1); } }
 @keyframes float3{ to{ transform:translate(-45%,-56%) scale(1.2); } }
